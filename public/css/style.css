@@ -3065,3 +3065,7 @@ ul.tag-men {
 }
 }
 /*--media-quaries-end-here--*/
+
+.product-one:last-child {
+    margin-top:40px;
+}

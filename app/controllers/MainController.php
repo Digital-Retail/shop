@@ -10,15 +10,15 @@ class MainController extends AppController {
 
     public function indexAction() {
 
-        $posts = R::findAll('test');
-        $name = "kirill";
-        $age = 19;
-        $login = "ok";
-        $names = ['dfssd', 'sdfsdf', 'Mike'];
-        $cashe = Cache::instance();
-        $cashe->set('test', $names);
-        $data = $cashe->get('test');
-        $this->set(compact('name', 'age', 'login', 'posts'));
+    
+        //$cashe = Cache::instance();
+        //$cashe->set('test', $names);
+        //$data = $cashe->get('test');
+        $brands = R::find('brand', 'LIMIT 3');
+        $hits= R::find('product', "hit='1'and status='1' Limit 8");
+          //  debug($hits);
+        
+        $this->set(compact('brands','hits'));
         
         $this->setMeta(App::$app->getProperty('shop_name'), "Мужские брендовые часы", "Электронные часы, кварцевые часы");
     }

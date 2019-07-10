@@ -194,3 +194,49 @@
 =================
 [2019-07-07 22:44:07] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
 =================
+[2019-07-10 21:45:28] Текст ошибки: syntax error, unexpected 'Limit' (T_STRING), expecting ',' or ')' | Файл: D:\web\server\domains\wath\app\controllers\MainController.php | Строка: 17
+=================
+[2019-07-10 21:45:28] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 21:45:48] Текст ошибки: syntax error, unexpected 'LIMIT' (T_STRING), expecting ',' or ')' | Файл: D:\web\server\domains\wath\app\controllers\MainController.php | Строка: 17
+=================
+[2019-07-10 21:45:49] Текст ошибки: syntax error, unexpected 'LIMIT' (T_STRING), expecting ',' or ')' | Файл: D:\web\server\domains\wath\app\controllers\MainController.php | Строка: 17
+=================
+[2019-07-10 21:45:49] Текст ошибки: syntax error, unexpected 'LIMIT' (T_STRING), expecting ',' or ')' | Файл: D:\web\server\domains\wath\app\controllers\MainController.php | Строка: 17
+=================
+[2019-07-10 21:45:50] Текст ошибки: syntax error, unexpected 'LIMIT' (T_STRING), expecting ',' or ')' | Файл: D:\web\server\domains\wath\app\controllers\MainController.php | Строка: 17
+=================
+[2019-07-10 21:48:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 22:12:29] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 22:22:10] Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' | Файл: D:\web\server\domains\wath\app\views\Main\index.php | Строка: 86
+=================
+[2019-07-10 23:05:07] Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' | Файл: D:\web\server\domains\wath\app\views\Main\index.php | Строка: 88
+=================
+[2019-07-10 23:14:34] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:15:25] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:35:32] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:36:30] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:36:37] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:36:58] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:49:30] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:52:17] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:52:56] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:54:25] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:55:01] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:56:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-10 23:57:11] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================

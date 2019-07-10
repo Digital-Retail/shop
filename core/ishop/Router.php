@@ -74,15 +74,15 @@ class Router
 		return lcfirst(self::upperCamelCase($name));
 	}
 	
-	protected static function removeQueryString($url) {
-		if($url){
-			$params = explode('&',$url, 2);
-			if(strpos($params[0], '=') ===false) {
-				return rtrim($params[0], '/');
-			}else {
-				return '';
-			}
-		}
-	}
+	protected static function removeQueryString($url){
+        if($url){
+            $params = explode('&', $url, 2);
+            if(false === strpos($params[0], '=')){
+                return rtrim($params[0], '/');
+            }else{
+                return '';
+            }
+        }
+    }
 
 }
