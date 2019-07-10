@@ -8,7 +8,7 @@ RedBeanPHP
 
 ## Install
 
-1 copy progect in public dir your web server (htdocs).
+1 copy progect in public dir your web server (htdocs). /n
 2 Make import database (file : shop.sql)
 
 
