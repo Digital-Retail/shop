@@ -10,6 +10,6 @@ RedBeanPHP
 
 1. Сopy progect in public dir your web server (htdocs or localhost).
 2. Make import database (file : shop.sql)
-
+3. Make Composer install
 
 
