@@ -240,3 +240,105 @@
 =================
 [2019-07-10 23:57:11] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
 =================
+[2019-07-11 21:12:39] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-11 21:12:49] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 13:16:32] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 13:24:51] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'symbol_left' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-07-13 13:26:05] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'simbol_right' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-07-13 13:27:03] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'simbol_right' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-07-13 13:27:04] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'simbol_right' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-07-13 13:27:04] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'simbol_right' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-07-13 13:27:04] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'simbol_right' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-07-13 14:02:47] Текст ошибки: syntax error, unexpected '$' | Файл: D:\web\server\domains\wath\app\widgets\currency\Currency.php | Строка: 26
+=================
+[2019-07-13 14:03:02] Текст ошибки: syntax error, unexpected ';' | Файл: D:\web\server\domains\wath\app\widgets\currency\Currency.php | Строка: 27
+=================
+[2019-07-13 14:05:09] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:06:15] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:12:24] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:30:10] Текст ошибки: syntax error, unexpected ':' | Файл: D:\web\server\domains\wath\app\widgets\currency\Currency.php | Строка: 17
+=================
+[2019-07-13 14:36:33] Текст ошибки: Class 'app\widgets\currency\App' not found | Файл: D:\web\server\domains\wath\app\widgets\currency\Currency.php | Строка: 17
+=================
+[2019-07-13 14:38:32] Текст ошибки: Class 'app\widgets\currency\App' not found | Файл: D:\web\server\domains\wath\app\widgets\currency\Currency.php | Строка: 17
+=================
+[2019-07-13 14:38:37] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:42:53] Текст ошибки: Class 'app\widgets\currency\App' not found | Файл: D:\web\server\domains\wath\app\widgets\currency\Currency.php | Строка: 17
+=================
+[2019-07-13 14:42:53] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:43:55] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:45:18] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\web\server\domains\wath\app\widgets\currency\currency_tpl\tpl.php | Строка: 7
+=================
+[2019-07-13 14:45:18] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:45:46] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 14:50:39] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\web\server\domains\wath\app\widgets\currency\currency_tpl\tpl.php | Строка: 7
+=================
+[2019-07-13 14:50:51] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\web\server\domains\wath\app\widgets\currency\currency_tpl\tpl.php | Строка: 7
+=================
+[2019-07-13 14:50:52] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: D:\web\server\domains\wath\app\widgets\currency\currency_tpl\tpl.php | Строка: 7
+=================
+[2019-07-13 17:29:32] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 17:30:33] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 17:45:27] Текст ошибки: syntax error, unexpected '$curr' (T_VARIABLE), expecting '(' | Файл: D:\web\server\domains\wath\app\controllers\CurrencyController.php | Строка: 16
+=================
+[2019-07-13 17:45:59] Текст ошибки: syntax error, unexpected 'redirect' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) | Файл: D:\web\server\domains\wath\app\controllers\CurrencyController.php | Строка: 20
+=================
+[2019-07-13 18:43:36] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-13 19:29:37] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл: D:\web\server\domains\wath\app\widgets\menu\Menu.php | Строка: 44
+=================
+[2019-07-13 20:25:14] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл: D:\web\server\domains\wath\app\widgets\menu\Menu.php | Строка: 44
+=================
+[2019-07-13 20:27:03] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл: D:\web\server\domains\wath\app\widgets\menu\Menu.php | Строка: 43
+=================
+[2019-07-14 01:47:45] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 01:55:24] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 01:55:55] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:00:35] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:01:47] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:02:33] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:30:11] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:30:27] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:31:23] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:31:38] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:36:34] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:37:19] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:43:45] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:44:07] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:45:19] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-14 02:45:51] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================

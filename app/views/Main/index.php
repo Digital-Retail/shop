@@ -72,6 +72,7 @@
 	<!--Конец вывода категорий-->
 
 	<?php if($hits): ?>
+    <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
 	<!--product-starts-->
 	<div class="product"> 
 		<div class="container">
@@ -89,7 +90,11 @@
 							<div class="product-bottom">
 								<a href="product/<?=$hit->alias;?>"><h3><?=$hit->title;?></h3></a>
 								<p>Explore Now</p>
-								<h4><a class="add-to-cart"href="/card/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price">$ <?=$hit->price;?></span></h4>
+								<h4><a class="add-to-cart"href="/card/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price"><?=$curr['simbol_left']; ?><?=round($hit->price*$curr['value']); ?><?=$curr['simbol_right'];?></span>
+                                <?php if($hit->old_price): ?>
+                                    <small><del><?=$hit->old_price*$curr['value']; ?></del></small>
+                                    <?php endif; ?>
+                                </h4>
 							</div>
 							<?php if($hit->old_price): ?>
 						
