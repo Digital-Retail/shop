@@ -44,7 +44,10 @@ class ProductController extends AppController
         // Гаелерея
         $images = R::getAll('select * from gallery where product_id= ?',[$product->id]);
 
+        //Модификации
+        $mods = R::findAll('modification', 'product_id = ?', [$product->id]);
 
-        $this->set(compact('product','related', 'images','recentlyViewed','breadCrumbs'));
+
+        $this->set(compact('product','related', 'images','recentlyViewed','breadCrumbs','mods'));
     }
 }

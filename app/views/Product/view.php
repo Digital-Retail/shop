@@ -62,24 +62,22 @@
 
                             ?>
 
-                            <h5 class="item_price"><?=$curr['simbol_left']; ?><?=round($product->price*$curr['value']); ?><?=$curr['simbol_right'];?></h5>
+                            <h5 class="item_price"><?=$curr['simbol_left']; ?><span data-basePrice="<?=round($product->price*$curr['value']); ?>" id="productPrice"><?=round($product->price*$curr['value']); ?></span><?=$curr['simbol_right'];?></h5>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                             <div class="available">
                                 <ul>
-                                    <li>Color
+                                    <?php if($mods): ?>
+                                    <li>Цвет
+
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
+                                            <option data-price="<?=round($product->price*$curr['value']) ;?>">Выбрать цвет</option>
+
+                                            <?php foreach ($mods as $mod): ?>
+                                            <option data-title="<?=$mod->title ;?>" data-price="<?=round($mod->price*$curr['value']) ;?>" value="<?=$mod->id; ?>"><?=$mod->title; ?></option>
+
+                                            <?php endforeach; ?>
                                         </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
-                                        </select></li>
+                                    <?php endif; ?>
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>

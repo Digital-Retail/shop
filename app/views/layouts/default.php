@@ -75,7 +75,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header-bottom">
 		<div class="container">
 			<div class="header">
-				<div class="col-md-9 header-left">
+				<div class="col-md-9 col-sm-12 col-xs-12 ">
               <div class="menu-container">
                   <div class="menu">
                       <?php new \app\widgets\menu\Menu([
@@ -86,7 +86,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               </div>
 				<div class="clearfix"> </div>
 			</div>
-			<div class="col-md-3 header-right"> 
+			<div class="col-md-3 col-sm-12 col-xs-12 " style="margin:10px 0">
 				<div class="search-bar">
 					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
 					<input type="submit" value="">
