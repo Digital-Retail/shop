@@ -1,3 +1,3 @@
 $('#currency').change(function () {
-   window.location = 'currency/change?curr='+$(this).val();
+   window.location = '/currency/change?curr='+$(this).val();
 });

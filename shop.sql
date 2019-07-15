@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 11 2019 г., 00:37
+-- Время создания: Июл 15 2019 г., 07:22
 -- Версия сервера: 10.3.13-MariaDB
 -- Версия PHP: 7.1.22
 
@@ -135,14 +135,17 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`id`, `title`, `alias`, `parent_id`, `keyword`, `description`) VALUES
-(1, 'Мужские', 'men', NULL, NULL, NULL),
-(2, 'Женские', 'women', NULL, NULL, NULL),
-(3, 'Детские', 'kids', NULL, NULL, NULL),
-(4, 'Электронные', 'electwomen', 2, NULL, NULL),
-(5, 'Электронные', 'electmen', 1, NULL, NULL),
-(6, 'Кварцевые', 'kvarmen', 1, NULL, NULL),
-(7, 'Кварцевые', 'kvarwomen', 2, NULL, NULL),
-(8, 'casio', 'casiomen', 1, NULL, NULL);
+(1, 'Мужские', 'men', 0, NULL, NULL),
+(2, 'Женские', 'women', 0, NULL, NULL),
+(3, 'Детские', 'kids', 0, NULL, NULL),
+(4, 'Брендовые', 'electwomen', 1, NULL, NULL),
+(5, 'casio', 'electmen', 4, NULL, NULL),
+(6, 'G-SCHOK', 'kvarmen', 4, NULL, NULL),
+(7, 'Rolex', 'kvarwomen', 4, NULL, NULL),
+(8, 'Механизм', 'casiomen', 1, NULL, NULL),
+(9, 'Цифровые', 'Почти', 8, NULL, NULL),
+(10, 'Аналоговые', 'kvarmen1', 8, NULL, NULL),
+(11, 'Унисекс', 'unisex', 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -155,8 +158,8 @@ CREATE TABLE `currency` (
   `title` varchar(10) NOT NULL,
   `code` varchar(3) NOT NULL,
   `simbol_left` varchar(10) DEFAULT NULL,
-  `simbil_rigt` varchar(10) DEFAULT NULL,
-  `value` float(15,2) DEFAULT NULL,
+  `simbol_right` varchar(10) DEFAULT NULL,
+  `value` float(15,3) DEFAULT NULL,
   `base` enum('0','1') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -164,10 +167,10 @@ CREATE TABLE `currency` (
 -- Дамп данных таблицы `currency`
 --
 
-INSERT INTO `currency` (`id`, `title`, `code`, `simbol_left`, `simbil_rigt`, `value`, `base`) VALUES
-(1, 'Рубль', '643', '', 'Р', 1.00, '1'),
-(3, 'Евро', '978', '€', '', 56.00, '0'),
-(4, 'Долар', '840', '$', NULL, 63.00, '0');
+INSERT INTO `currency` (`id`, `title`, `code`, `simbol_left`, `simbol_right`, `value`, `base`) VALUES
+(1, 'Рубль', 'RUB', '', ' ₽', 1.000, '1'),
+(3, 'Евро', 'EUR', '€ ', ' ', 0.014, '0'),
+(4, 'Долар', 'USD', '$ ', '', 0.016, '0');
 
 -- --------------------------------------------------------
 
@@ -180,6 +183,15 @@ CREATE TABLE `gallery` (
   `product_id` int(11) UNSIGNED NOT NULL,
   `img` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `gallery`
+--
+
+INSERT INTO `gallery` (`id`, `product_id`, `img`) VALUES
+(1, 2, 's-1.jpg'),
+(2, 2, 's-2.jpg'),
+(3, 2, 's-3.jpg');
 
 -- --------------------------------------------------------
 
@@ -253,9 +265,9 @@ CREATE TABLE `product` (
 
 INSERT INTO `product` (`id`, `category_id`, `brand_id`, `title`, `alias`, `content`, `price`, `old_price`, `status`, `keywords`, `description`, `img`, `hit`) VALUES
 (1, 1, 1, 'Часы 1', 'watch1', 'watch1', 3000, 2000, '1', NULL, NULL, 'no_img.jpg', '1'),
-(2, 2, 1, 'Часы 2', 'watch2', 'watch2', 4000, 2000, '1', NULL, NULL, 'no_img.jpg', '1'),
+(2, 2, 1, 'Часы 2', 'watch2', 'watch2', 4000, 2000, '1', NULL, 'Tfsdfdsf sdfdsfsdfs sdfsdfsdf sdfsdfsdfsdf', 'no_img.jpg', '1'),
 (3, 2, 2, 'Часы 3', 'watch3', 'watch3', 3000, 2000, '1', NULL, NULL, 'no_img.jpg', '1'),
-(4, 3, 3, 'Часы 4', 'watch4', 'watch4', 5000, 2000, '1', NULL, NULL, 'no_img.jpg', '1'),
+(4, 7, 3, 'Часы 4', 'watch4', 'watch4', 5000, 2000, '1', NULL, NULL, 'no_img.jpg', '1'),
 (5, 3, 3, 'Часы 5', 'watch5', 'watch5', 7000, 3000, '1', NULL, NULL, 'no_img.jpg', '1');
 
 -- --------------------------------------------------------
@@ -268,6 +280,15 @@ CREATE TABLE `related_product` (
   `product_id` int(11) NOT NULL,
   `related_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `related_product`
+--
+
+INSERT INTO `related_product` (`product_id`, `related_id`) VALUES
+(2, 3),
+(2, 4),
+(2, 5);
 
 -- --------------------------------------------------------
 
@@ -413,7 +434,7 @@ ALTER TABLE `brand`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT для таблицы `currency`
@@ -425,7 +446,7 @@ ALTER TABLE `currency`
 -- AUTO_INCREMENT для таблицы `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT для таблицы `korzina`

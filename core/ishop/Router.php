@@ -32,7 +32,7 @@ class Router
 				}
 			//Если класс не найден	
 			}else {
-				throw new \Exception("Контролер не найден", 404);
+				throw new \Exception("Контролер  $controller не найден ", 404);
 			}
 			
 		}else {

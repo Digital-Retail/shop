@@ -10,6 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 
+    <base>
 <?=$this->getMeta() ?>
 <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -18,13 +19,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <!--Custom-Theme-files-->
 <!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="/js/jquery-1.11.0.min.js"></script>
 <!--dropdown-->
-<script src="js/jquery.easydropdown.js"></script>			
+<script src="/js/jquery.easydropdown.js"></script>
 </head>
 <body> 
 	<!--top-header-->
@@ -54,7 +55,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="checkout.html">
 							 <div class="total">
 								<span class="simpleCart_total"></span></div>
-								<img src="images/cart-1.png" alt="" />
+								<img src="/images/cart-1.png" alt="" />
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Пустая карзина</a></p>
 						<div class="clearfix"> </div>
@@ -67,7 +68,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--top-header-->
 	<!--start-logo-->
 	<div class="logo">
-		<a href="index.html"><h1>Digital Retail</h1></a>
+		<a href="<?=PATH ?>"><h1>Digital Retail</h1></a>
 	</div>
 	<!--start-logo-->
 	<!--bottom-header-->
@@ -129,5 +130,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="/megamenu/js/megamenu.js"></script>
         <script src="/js/main.js"> </script>
 
+    <!--dropdown-->
+    <script src="/js/jquery.easydropdown.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            var menu_ul = $('.menu_drop > li > ul'),
+                menu_a  = $('.menu_drop > li > a');
+
+            menu_ul.hide();
+
+            menu_a.click(function(e) {
+                e.preventDefault();
+                if(!$(this).hasClass('active')) {
+                    menu_a.removeClass('active');
+                    menu_ul.filter(':visible').slideUp('normal');
+                    $(this).addClass('active').next().stop(true,true).slideDown('normal');
+                } else {
+                    $(this).removeClass('active');
+                    $(this).next().stop(true,true).slideUp('normal');
+                }
+            });
+
+        });
+    </script>
 </body>
 </html>
