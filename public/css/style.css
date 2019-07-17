@@ -3069,3 +3069,12 @@ ul.tag-men {
 .product-one:last-child {
     margin-top:40px;
 }
+
+.vcenter {
+
+	vertical-align: middle;
+
+}
+.del-item {
+	cursor: pointer;
+}

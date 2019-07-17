@@ -73,7 +73,7 @@
                                             <option data-price="<?=round($product->price*$curr['value']) ;?>">Выбрать цвет</option>
 
                                             <?php foreach ($mods as $mod): ?>
-                                            <option data-title="<?=$mod->title ;?>" data-price="<?=round($mod->price*$curr['value']) ;?>" value="<?=$mod->id; ?>"><?=$mod->title; ?></option>
+                                            <option data-title="<?=$mod->title ;?>" value="<?=$mod->id; ?>" data-price="<?=round($mod->price*$curr['value']) ;?>" value="<?=$mod->id; ?>"><?=$mod->title; ?></option>
 
                                             <?php endforeach; ?>
                                         </select></li>
@@ -86,8 +86,8 @@
                                    <a href="/category/<?=$cats[$product->category_id]['alias'] ;?>"><span class="women1"> <?=$cats[$product->category_id]['title'] ;?></span></li></a>
 
                             </ul>
-                            <input size="4" value="1" name="quantity" min="1" step="1" type="number" style="width:60px;">
-                            <a id="productAdd" href="/cart/add/?id=<?=$product->id; ?>" class="add-cart item_add">Добавить в корзину</a>
+                            <input size="4" value="1" name="quantity" id='quantity' min="1" step="1" type="number" style="width:60px;">
+                            <a id="productAdd" href="/cart/add/?id=<?=$product->id; ?>" class="add-cart item_add add-to-cart-link" data-id="<?=$product->id; ?>">Добавить в корзину</a>
 
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                                         <div class="product-bottom">
                                             <a href="/product/<?=$product['alias']; ?>" ><h3 ><?=$product['title']; ?></h3> </a>
 
-                                            <h4><a class="add-to-cart add-to-cart-link" href="/card/add?id=<?=$product['id']; ?>" data-id="<?=$product['id'];?>"><i></i></a> <span class=" item_price"><?=$curr['simbol_left']; ?><?=round($product['price']*$curr['value']); ?><?=$curr['simbol_right'];?></span>
+                                            <h4><a class="add-to-cart add-to-cart-link" href="/cart/add?id=<?=$product['id']; ?>" data-id="<?=$product['id'];?>"><i></i></a> <span class=" item_price"><?=$curr['simbol_left']; ?><?=round($product['price']*$curr['value']); ?><?=$curr['simbol_right'];?></span>
                                                 <?php if($product['old_price']): ?>
                                                     <small><del><?=$product['old_price']*$curr['value']; ?></del></small>
                                                 <?php endif; ?>

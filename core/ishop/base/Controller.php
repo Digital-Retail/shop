@@ -32,4 +32,15 @@ abstract class Controller
 	$this->meta['desc']=$desc;
 	$this->meta['keywords']=$keywords;
 	}
+
+	public function isAjax() {
+        return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
+    }
+
+    public function loadView($view, $vars=[]) {
+	    extract($vars);
+	    require APP."/views/{$this->prefix}{$this->controller}/{$view}.php";
+	    die;
+
+    }
 }

@@ -12,6 +12,7 @@ class Currency
 
     public function __construct(){
         $this->tpl= __DIR__."/currency_tpl/tpl.php";
+
         $this->run();
     }
 

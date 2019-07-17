@@ -17,7 +17,7 @@
 	</div>
 	<!--banner-ends--> 
 	<!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
+				<script src="/js/responsiveslides.min.js"></script>
 			 <script>
 			    // You can also use "$(window).load(function() {"
 			    $(function () {
@@ -90,7 +90,7 @@
 							<div class="product-bottom">
 								<a href="product/<?=$hit->alias;?>"><h3><?=$hit->title;?></h3></a>
 								<p>Explore Now</p>
-								<h4><a class="add-to-cart"href="/card/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price"><?=$curr['simbol_left']; ?><?=round($hit->price*$curr['value']); ?><?=$curr['simbol_right'];?></span>
+								<h4><a class="add-to-cart-link" data-id="<?=$hit->id; ?>"href="/cart/add?id=<?=$hit->id;?>"><i></i></a> <span class=" item_price"><?=$curr['simbol_left']; ?><?=round($hit->price*$curr['value']); ?><?=$curr['simbol_right'];?></span>
                                 <?php if($hit->old_price): ?>
                                     <small><del><?=$hit->old_price*$curr['value']; ?></del></small>
                                     <?php endif; ?>
@@ -111,9 +111,9 @@
 						echo '<div class="clearfix"></div></div>';
 					}
 					?>
-				<?php endforeach;?>	
-				
-					
+				<?php endforeach;?>
+
+
 					
 				</div>
 			</div>
@@ -167,3 +167,4 @@
 			</div>
 		</div>
 	</div>
+
