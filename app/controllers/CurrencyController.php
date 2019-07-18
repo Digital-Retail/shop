@@ -4,6 +4,7 @@
 namespace app\controllers;
 
 
+use app\models\Cart;
 use RedBeanPHP\R;
 
 class CurrencyController extends AppController
@@ -15,7 +16,9 @@ class CurrencyController extends AppController
 
             if (!empty($curr)) {
                 setcookie('currency', $currency, time() + 3600 * 24 * 7, "/");
+                Cart::recalc($curr);
             }
+
         }
         redirect();
     }
