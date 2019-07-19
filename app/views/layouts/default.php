@@ -100,8 +100,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12 " style="margin:10px 0">
 				<div class="search-bar">
-					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-					<input type="submit" value="">
+					<form action="search" method="get" autocomplete="off">
+                        <input type="text" class="typeahead" placeholder="Поиск" id="typeahead" name="s">
+                        <input type="submit" value="">
+                    </form>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -134,9 +136,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!--footer-end-->
     <!-- Button trigger modal -->
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-        Посмотреть демо
-    </button>
+
 
     <!-- Modal -->
     <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -161,13 +161,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--start-menu-->
 
+    <script>
 
+        var path = '<?=PATH;?>',
+            course = <?=$curr['value'];?>,
+         symboleLeft = '<?=$curr['simbol_left'];?>',
+            symboleRight = '<?=$curr['simbol_right'];?>';
+    </script>
 
+    <script src="/js/typeahead.bundle.js"></script>
     <script src="/megamenu/js/megamenu.js"></script>
         <script src="/js/main.js"> </script>
 
     <!--dropdown-->
     <script src="/js/jquery.easydropdown.js"></script>
+
     <script type="text/javascript">
         $(function() {
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 15 2019 г., 07:22
+-- Время создания: Июл 19 2019 г., 19:16
 -- Версия сервера: 10.3.13-MariaDB
 -- Версия PHP: 7.1.22
 
@@ -237,6 +237,14 @@ CREATE TABLE `modification` (
   `price` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Дамп данных таблицы `modification`
+--
+
+INSERT INTO `modification` (`id`, `product_id`, `title`, `price`) VALUES
+(1, 2, 'Красные', 5000),
+(2, 2, 'Черные', 5309);
+
 -- --------------------------------------------------------
 
 --
@@ -464,7 +472,7 @@ ALTER TABLE `korzina_product`
 -- AUTO_INCREMENT для таблицы `modification`
 --
 ALTER TABLE `modification`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT для таблицы `product`

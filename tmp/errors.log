@@ -774,3 +774,47 @@
 =================
 [2019-07-19 00:54:18] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
 =================
+[2019-07-19 01:04:17] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:07:04] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:08:28] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:08:37] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:08:52] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:09:22] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:09:39] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:16:08] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:35:29] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:35:46] Текст ошибки: Контролер  \app\controllers\SearchController не найден  | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 35
+=================
+[2019-07-19 01:35:50] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:37:50] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:38:53] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:39:56] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:41:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:41:29] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:41:33] Текст ошибки: Контролер  \app\controllers\SearchController не найден  | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 35
+=================
+[2019-07-19 01:41:34] Текст ошибки: Контролер  \app\controllers\SearchController не найден  | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 35
+=================
+[2019-07-19 01:41:36] Текст ошибки: Контролер  \app\controllers\SearchController не найден  | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 35
+=================
+[2019-07-19 01:56:12] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:56:26] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-19 01:56:40] Текст ошибки: Метод \app\controllers\SearchController :: indexAction не найден | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 31
+=================
