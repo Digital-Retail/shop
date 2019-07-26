@@ -72,7 +72,7 @@
 	<!--Конец вывода категорий-->
 
 	<?php if($hits): ?>
-    <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
+        <?php $curr = \ishop\App::$app->getProperty('currency'); ?>
 	<!--product-starts-->
 	<div class="product"> 
 		<div class="container">

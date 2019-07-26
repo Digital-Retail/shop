@@ -22,7 +22,7 @@ $("#typeahead").typeahead({
 
 $('#typeahead').bind('typeahead:select', function(ev, suggestion) {
    // console.log(suggestion);
-   window.location = path + '/search/?s=' + encodeURIComponent(suggestion.title);
+   window.location =  '/search/?s=' + encodeURIComponent(suggestion.title);
 });
 
 // CART
@@ -53,6 +53,8 @@ function showCart(cart) {
    $('#cart .modal-body').html(cart);
    if( $('#cart .cart-sum').text() ) {
          $('#cartTotal').html($('#cart .cart-sum').text());
+   } else {
+      $('#cartTotal').html('');
    }
    $('#cart').modal();
 }

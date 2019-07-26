@@ -21,9 +21,12 @@ class SearchController extends AppController
 
     public function  indexAction() {
         $s = !empty(trim($_GET['s'])) ? trim($_GET['s']) : null;
+        $s = htmlspecialchars($s);
         if($s) {
          $product = R::find('product', 'title Like ?', ["%{$s}%"]);
         }
-        $this->set(compact('product'));
+        $this->setMeta('Поиск по '.htmlspecialchars($s));
+
+        $this->set(compact('product', 's'));
     }
 }

@@ -27,7 +27,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--dropdown-->
 <script src="/js/jquery.easydropdown.js"></script>
 </head>
-<body> 
+<body>
+
+
+
 	<!--top-header-->
 	<div class="top-header">
 		<div class="container">
@@ -167,6 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             course = <?=$curr['value'];?>,
          symboleLeft = '<?=$curr['simbol_left'];?>',
             symboleRight = '<?=$curr['simbol_right'];?>';
+
     </script>
 
     <script src="/js/typeahead.bundle.js"></script>
