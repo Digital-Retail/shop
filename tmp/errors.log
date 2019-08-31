@@ -872,3 +872,81 @@
 =================
 [2019-07-26 21:38:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
 =================
+[2019-07-29 22:11:30] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-29 22:11:35] Текст ошибки: Class 'app\models\Category' not found | Файл: D:\web\server\domains\wath\app\controllers\CategoryController.php | Строка: 28
+=================
+[2019-07-29 22:16:52] Текст ошибки: Не найден вид D:\web\server\domains\wath/app/views/Category/view.php  | Файл: D:\web\server\domains\wath\core\ishop\base\View.php | Строка: 38
+=================
+[2019-07-29 22:16:53] Текст ошибки: Не найден вид D:\web\server\domains\wath/app/views/Category/view.php  | Файл: D:\web\server\domains\wath\core\ishop\base\View.php | Строка: 38
+=================
+[2019-07-29 22:16:54] Текст ошибки: Не найден вид D:\web\server\domains\wath/app/views/Category/view.php  | Файл: D:\web\server\domains\wath\core\ishop\base\View.php | Строка: 38
+=================
+[2019-07-30 22:55:29] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-07-30 22:55:39] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-24 16:16:22] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:24:45] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:36:47] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:37:58] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:38:54] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:39:11] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:42:26] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:43:11] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:43:48] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 16:47:54] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:09:30] Текст ошибки: Метод \app\controllers\UserController :: indexAction не найден | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 31
+=================
+[2019-08-31 20:09:49] Текст ошибки: Не найден вид D:\web\server\domains\wath/app/views/User/index.php  | Файл: D:\web\server\domains\wath\core\ishop\base\View.php | Строка: 38
+=================
+[2019-08-31 20:13:21] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:13:24] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:13:35] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:13:36] Текст ошибки: Метод \app\controllers\UserController :: signupAction не найден | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 31
+=================
+[2019-08-31 20:32:36] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:34:15] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:34:17] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:39:21] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:42:38] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:43:30] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:43:55] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:45:21] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:47:13] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:48:04] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:49:30] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:50:59] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:51:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:51:09] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 20:52:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-08-31 21:34:25] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================

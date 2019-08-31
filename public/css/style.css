@@ -1446,7 +1446,7 @@ a.mask {
     margin-top: 10px;
 }
 .submit{
-	margin:0 0 0 1em;
+	margin:0 0 0 0;
 }
 .address a {
     font-size: 14px;
@@ -3174,5 +3174,14 @@ span.twitter-typeahead {
 .input-group.input-group-lg span.twitter-typeahead .tt-menu,
 .input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
 	top: 46px !important;
+}
+.account-link {
+	position: relative;
+	top:-2px;
+	color:white;
+	cursor: pointer;
+}
+a.account-link:hover {
+	color:silver;
 }
 /*search*/
