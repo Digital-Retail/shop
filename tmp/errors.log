@@ -950,3 +950,163 @@
 =================
 [2019-08-31 21:34:25] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
 =================
+[2019-09-01 10:25:05] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 12:48:03] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 12:48:22] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 12:57:39] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 12:58:26] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:24] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:48] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:50] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:52] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:53] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:54] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:00:56] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:01:23] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:07:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:09:56] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:11:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:11:25] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:15:16] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 13:15:39] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 16:22:34] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-02 17:16:11] Текст ошибки: Rule 'lenghtMin' has not been registered with Valitron\Validator::addRule(). | Файл: D:\web\server\domains\wath\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1383
+=================
+[2019-09-02 18:19:02] Текст ошибки: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) | Файл: D:\web\server\domains\wath\app\controllers\UserController.php | Строка: 35
+=================
+[2019-09-02 23:57:58] Текст ошибки: Class 'R' not found | Файл: D:\web\server\domains\wath\core\ishop\base\Model.php | Строка: 51
+=================
+[2019-09-02 23:58:42] Текст ошибки: Class 'R' not found | Файл: D:\web\server\domains\wath\core\ishop\base\Model.php | Строка: 51
+=================
+[2019-09-02 23:59:14] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-02 23:59:15] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 00:03:17] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 00:06:50] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 20:48:06] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 20:49:30] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 20:49:53] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 20:52:47] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 20:52:57] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name1' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 20:53:32] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 20:59:14] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 20:59:51] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'repassword' in 'field list' | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 21:00:56] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'address' doesn't have a default value | Файл: D:\web\server\domains\wath\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=================
+[2019-09-03 21:02:06] Текст ошибки: syntax error, unexpected 'foreach' (T_FOREACH) | Файл: D:\web\server\domains\wath\core\ishop\base\Model.php | Строка: 53
+=================
+[2019-09-03 21:27:29] Текст ошибки: Class 'R' not found | Файл: D:\web\server\domains\wath\app\models\User.php | Строка: 37
+=================
+[2019-09-03 21:28:15] Текст ошибки: Class 'R' not found | Файл: D:\web\server\domains\wath\app\models\User.php | Строка: 38
+=================
+[2019-09-03 21:28:17] Текст ошибки: Class 'R' not found | Файл: D:\web\server\domains\wath\app\models\User.php | Строка: 38
+=================
+[2019-09-03 21:39:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:39:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:39:45] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:40:04] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:41:38] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:42:15] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:44:46] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:45:28] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:46:12] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:46:33] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:48:58] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:49:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 21:52:16] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:11:48] Текст ошибки: Call to undefined function iset() | Файл: D:\web\server\domains\wath\core\ishop\libs\functions.php | Строка: 23
+=================
+[2019-09-03 22:12:05] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:13:12] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:25:03] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:26:14] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:26:22] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:26:32] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:27:21] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:27:34] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:28:02] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:28:14] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:28:31] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:29:05] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:29:51] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:30:00] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:37:27] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:38:19] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:40:08] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:40:23] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:41:29] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:42:25] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-03 22:49:54] Текст ошибки: Страница не найдена | Файл: D:\web\server\domains\wath\core\ishop\Router.php | Строка: 39
+=================
+[2019-09-04 00:07:36] Текст ошибки: Call to undefined function h() | Файл: D:\web\server\domains\wath\app\views\layouts\default.php | Строка: 49
+=================
+[2019-09-04 00:13:39] Текст ошибки: Call to undefined function h() | Файл: D:\web\server\domains\wath\app\views\layouts\default.php | Строка: 49
+=================
+[2019-09-04 00:13:42] Текст ошибки: Call to undefined function h() | Файл: D:\web\server\domains\wath\app\views\layouts\default.php | Строка: 49
+=================

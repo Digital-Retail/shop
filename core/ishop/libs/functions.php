@@ -19,3 +19,9 @@ function redirect($http = false) {
     header("Location: $redirect");
     exit();
 }
+function getFormData($nameField) {
+    if(isset($_SESSION['formData'][$nameField])) {
+        echo htmlspecialchars($_SESSION['formData'][$nameField]);
+
+    }
+}

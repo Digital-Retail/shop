@@ -46,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <a class="dropdown-toggle account-link" data-toggle="dropdown">Профиль <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <?php if(!empty($_SESSION['user'])): ?>
-                                    <li><a href="#">Добро пожаловать, <?=h($_SESSION['user']['name']);?></a></li>
+                                    <li><a href="#">Добро пожаловать, <?=$_SESSION['user']['login'];?></a></li>
                                     <li><a href="/user/logout">Выход</a></li>
                                 <?php else: ?>
                                     <li><a href="/user/login">Вход</a></li>
@@ -121,6 +121,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--bottom-header-->
 	<div class="content">
 
+
 	<?=$content; ?>
 	</div>
 	<!--information-end-->
@@ -184,28 +185,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--dropdown-->
     <script src="/js/jquery.easydropdown.js"></script>
 
-    <script type="text/javascript">
-        $(function() {
-
-            var menu_ul = $('.menu_drop > li > ul'),
-                menu_a  = $('.menu_drop > li > a');
-
-            menu_ul.hide();
-
-            menu_a.click(function(e) {
-                e.preventDefault();
-                if(!$(this).hasClass('active')) {
-                    menu_a.removeClass('active');
-                    menu_ul.filter(':visible').slideUp('normal');
-                    $(this).addClass('active').next().stop(true,true).slideDown('normal');
-                } else {
-                    $(this).removeClass('active');
-                    $(this).next().stop(true,true).slideUp('normal');
-                }
-            });
-
-        });
-    </script>
+    <script src="/js/jquery.mask.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/bootstrapValidator.min.js"></script>
+    <script type="text/javascript" src="/js/validator.js"></script>
 </body>
 </html>
