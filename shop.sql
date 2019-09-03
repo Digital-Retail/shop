@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 19 2019 г., 19:16
+-- Время создания: Сен 04 2019 г., 00:23
 -- Версия сервера: 10.3.13-MariaDB
 -- Версия PHP: 7.1.22
 
@@ -320,11 +320,23 @@ CREATE TABLE `user` (
   `login` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `address` varchar(255) NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `telephone` varchar(20) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
   `role` enum('user','admin') NOT NULL DEFAULT 'user',
   `datareg` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `user`
+--
+
+INSERT INTO `user` (`id`, `login`, `password`, `email`, `first_name`, `last_name`, `telephone`, `address`, `role`, `datareg`) VALUES
+(3, 'sdfsdfsdf', '$2y$10$8R./HmSBj3Ls1NUv5w9x4umTQ.GQEyi5THPQtYMgRk8FHhPNqHmAa', 'pak@yan.ru', 'dfsfsddfs', 'dfsfdsfds', '+7 (918) 398 59 06', NULL, 'user', '2019-09-03 18:09:12'),
+(4, 'TwoZeros', '$2y$10$KAXya034KJCiuBgJ84HAoeJhsAPb3vyndieAP9CcnZ7s2bIdWCCBW', 'pak@ya.ru', 'Kirill', 'Pakhtusov', '+7 (999) 999 99 99', NULL, 'user', '2019-09-03 18:29:14'),
+(5, 'TwoZeros1', '$2y$10$1fx7eTcymI5O5W1T3H7FPe.dFwAtBbHHUhK9BV5hutN0IJCtv6Joy', 'pak.ki@yandex.ru', 'Кирилл', 'Пахтусов', '+7 (918)-398-59-05', NULL, 'user', '2019-09-03 19:26:31'),
+(6, 'Admin', '$2y$10$JhU4z09pYOt5T5dCnOl8l.ZTL1sEJFkWTIviz4zAQI8cl4uRRYWfa', 'pak.ki@yandex.ru1', 'Кирилл', 'Пахтусов', '+7 (918)-398-59-01', NULL, 'user', '2019-09-03 21:07:26');
 
 --
 -- Индексы сохранённых таблиц
@@ -414,7 +426,8 @@ ALTER TABLE `related_product`
 -- Индексы таблицы `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `login` (`login`);
 
 --
 -- AUTO_INCREMENT для сохранённых таблиц
@@ -484,7 +497,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
